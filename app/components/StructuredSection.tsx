@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const features = [
   {
-    title: "Operations",
+    title: "AI-Driven Operations",
     description:
-      "Defined processes with review checkpoints so all your projects stay on track from start to finish.",
+      "Intelligent automation handles repetitive tasks so your business marketing runs 24/7 — no manual effort required.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <circle cx="11" cy="11" r="7" />
@@ -13,9 +13,9 @@ const features = [
     ),
   },
   {
-    title: "Delivery",
+    title: "Results-Focused Delivery",
     description:
-      "A 50+ in-house team, fully synced with you and completely invisible to your end-clients.",
+      "A dedicated team of 50+ digital marketing and AI specialists working to deliver measurable growth for your business every month.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="9" />
@@ -37,13 +37,13 @@ export function StructuredSection() {
             {/* Left — heading + description */}
             <div>
               <h2 className="text-2xl md:text-3xl font-extrabold text-white leading-snug">
-                How We're Structured
+                Built to Deliver Real Business Results
               </h2>
               <p className="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">
-                Our setup is built around documented SEO SOPs that systemize
-                daily execution and maintain delivery consistency. This ensures
-                every deliverable we provide is predictable, scalable and most
-                importantly reliable.
+                Our business is built around AI-powered systems and documented
+                processes that keep your marketing running like clockwork. Every
+                campaign, every automation, every deliverable is designed to grow
+                your revenue — not just your metrics.
               </p>
             </div>
 

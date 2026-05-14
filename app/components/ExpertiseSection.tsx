@@ -1,8 +1,8 @@
 const services = [
   {
-    title: "White Label SEO",
+    title: "SEO & AI Search",
     description:
-      "Rank your clients on Google and get them cited in AI overviews and tools like ChatGPT, Gemini and Claude.",
+      "Rank your business on Google and get cited in AI tools like ChatGPT, Gemini and Claude — capturing customers wherever they search.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <circle cx="11" cy="11" r="7" />
@@ -11,9 +11,9 @@ const services = [
     ),
   },
   {
-    title: "White Label Link Building",
+    title: "Paid Advertising",
     description:
-      "Secure placements on real, authoritative websites - strengthening every client site's domain authority and driving lasting organic traffic.",
+      "Data-driven Google Ads, Meta Ads, and PPC campaigns that put your business in front of the right audience and turn clicks into real paying customers.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 12l8-8 8 8" />
@@ -22,9 +22,9 @@ const services = [
     ),
   },
   {
-    title: "White Label Local SEO",
+    title: "AI Marketing & Automation",
     description:
-      "Get your clients featured in Google's local results and turn nearby searches into real calls, visits and leads.",
+      "Automate your marketing workflows with AI — from lead nurturing and content creation to campaign optimisation — so your business grows around the clock.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
@@ -41,7 +41,7 @@ export function ExpertiseSection() {
 
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-12">
-          Your Brand. Our Expertise.
+          Your Growth. Our Expertise.
         </h2>
 
         {/* Cards grid */}

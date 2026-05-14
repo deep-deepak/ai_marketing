@@ -8,6 +8,7 @@ import { TrustSection } from "./components/TrustSection";
 import { HowItWorksSection } from "./components/HowItWorksSection";
 import { BlogSection } from "./components/BlogSection";
 import { FitSection } from "./components/FitSection";
+import { AiAutomationSection } from "./components/AiAutomationSection";
 import { FaqSection } from "./components/FaqSection";
 import { Footer } from "./components/Footer";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <TrustSection />
       <HowItWorksSection />
       <BlogSection />
+      <AiAutomationSection />
       <FaqSection />
       <FitSection />
       <Footer />

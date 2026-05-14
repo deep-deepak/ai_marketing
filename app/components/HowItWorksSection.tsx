@@ -1,9 +1,9 @@
 const steps = [
   {
     number: "01",
-    title: "Discovery Call",
+    title: "Business Discovery",
     description:
-      "We start with a straightforward conversation — no hard sell. We learn about your agency, your current clients, pain points, and growth goals so we can figure out if we're the right fit for each other.",
+      "We start with a focused conversation — no hard sell. We learn about your business, your current marketing, pain points, and revenue goals so we can design the right growth strategy for you.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .94h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.83a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
@@ -12,9 +12,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "Onboarding & Strategy",
+    title: "Strategy & Setup",
     description:
-      "Once we're aligned, we run a full audit of your client's current SEO position, map out a 90-day strategy, and set up all reporting infrastructure — all branded under your agency.",
+      "Once we're aligned, we audit your current digital presence, map out a 90-day AI-powered growth strategy, and set up all tracking and automation infrastructure.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
@@ -27,9 +27,9 @@ const steps = [
   },
   {
     number: "03",
-    title: "Execution by Our Team",
+    title: "AI-Powered Execution",
     description:
-      "Our 50+ in-house specialists get to work — technical fixes, content production, outreach, local optimisation. Every task follows a documented SOP and goes through a 3-step quality review before delivery.",
+      "Our 50+ in-house specialists and AI systems get to work — SEO fixes, ad campaigns, content production, automation workflows. Every task follows a documented SOP and goes through a quality review before launch.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -39,9 +39,9 @@ const steps = [
   },
   {
     number: "04",
-    title: "Reporting & Scaling",
+    title: "Results & Scaling",
     description:
-      "Every month you receive white-label reports ready to forward straight to your clients. As results grow, we work with you to scale campaigns, add new clients, and increase your agency's revenue — all without extra hiring.",
+      "Every month you receive clear, data-backed reports showing exactly what's working. As results grow, we scale your campaigns, expand into new channels, and compound your ROI — all without proportionally growing your budget.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <line x1="18" y1="20" x2="18" y2="10" />
@@ -66,7 +66,7 @@ export function HowItWorksSection() {
             How It Works
           </h2>
           <p className="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">
-            From first call to ranking results — here's exactly what working with us looks like.
+            From understanding your business to delivering measurable growth — here's exactly how we work.
           </p>
         </div>
 

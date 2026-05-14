@@ -4,44 +4,44 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "What exactly is white label SEO?",
+    question: "What services does AI Mentors provide?",
     answer:
-      "White label SEO means we handle all the SEO work — audits, content, link building, reporting — while you present it to your clients as your own service. Your branding is on everything. We stay completely in the background.",
+      "We offer a full suite of AI-powered digital marketing services — including SEO, Google Ads, Meta Ads, content marketing, graphic design, social media management, and marketing automation. Everything is designed to help your business generate more leads and revenue.",
   },
   {
-    question: "Will my clients ever find out you're involved?",
+    question: "How is AI used in your marketing services?",
     answer:
-      "Never. We operate under strict NDA and have no contact with your clients unless you explicitly ask us to. All reports, communications, and deliverables carry your agency's branding only.",
+      "AI powers almost every part of what we do — from content creation and ad copy generation to campaign optimisation, lead scoring, predictive analytics, and automated reporting. This means faster results, lower costs, and smarter decisions for your business.",
   },
   {
-    question: "How quickly can we get started?",
+    question: "How quickly can my business get started?",
     answer:
-      "Once we have a quick onboarding call to understand your client's goals and current situation, most campaigns are set up and running within 5–7 business days. We move fast without cutting corners.",
+      "After an initial discovery call, we typically have your campaigns live within 5–7 business days. We move fast, but we don't cut corners — every campaign is built on a solid strategy before launch.",
   },
   {
-    question: "How long before my clients see real results?",
+    question: "How long before I see results?",
     answer:
-      "SEO is a long-term investment. Most clients start seeing meaningful movement in rankings and traffic within 3–6 months. Local SEO campaigns typically show results faster — often within 4–8 weeks for Google Business Profile improvements.",
+      "Paid campaigns (Google Ads, Meta Ads) can generate leads within the first week. SEO typically shows meaningful traction within 3–6 months. AI automation benefits are visible almost immediately once workflows go live.",
   },
   {
-    question: "Do you lock agencies into long-term contracts?",
+    question: "Do you require long-term contracts?",
     answer:
-      "No. We work on a month-to-month basis. We believe results should earn your continued partnership — not a contract. That said, most of our agency partners stay with us long-term because the outcomes speak for themselves.",
+      "No. We work month-to-month. We believe consistent results are what keep clients with us — not contracts. Most of our clients stay long-term because the ROI speaks for itself.",
   },
   {
-    question: "What does your reporting look like?",
+    question: "What kind of businesses do you work with?",
     answer:
-      "We provide fully white-labelled monthly reports covering keyword rankings, organic traffic, technical health, link acquisition, and campaign highlights. Reports are branded with your agency logo and are ready to forward directly to clients.",
+      "We work with businesses of all sizes — startups, growing SMEs, and established brands. Whether you're in e-commerce, services, real estate, education, or healthcare, our strategies are tailored to your specific market and goals.",
   },
   {
-    question: "Can I scale up or down based on client demand?",
+    question: "How do you measure and report results?",
     answer:
-      "Absolutely. Our packages are flexible. You can add or remove clients, upgrade service tiers, or pause campaigns with 30 days' notice. We're built to grow with your agency, not hold you back.",
+      "You receive a clear monthly report covering traffic, leads, ad performance, keyword rankings, and ROI. We track only the metrics that matter to your business revenue — no vanity stats.",
   },
   {
-    question: "What makes AI Mentors different from other white label providers?",
+    question: "What makes AI Mentors different from other digital marketing companies?",
     answer:
-      "We have a 50+ in-house team working from a single location — no subcontractors, no overseas outsourcing. Every campaign runs on 300+ documented SOPs. Combined with our strict NDA policy and month-to-month model, we're the partner agencies actually trust.",
+      "Most agencies rely on manual processes and guesswork. We combine AI automation with experienced human strategists — giving you the speed and scale of AI with the judgment and creativity of a senior marketing team. One partner for everything: SEO, ads, content, design, and automation.",
   },
 ];
 
@@ -84,7 +84,7 @@ export function FaqSection() {
             Questions We Get Asked
           </h2>
           <p className="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">
-            Everything agencies want to know before partnering with us — answered honestly.
+            Everything businesses want to know before getting started — answered honestly.
           </p>
         </div>
 

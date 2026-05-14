@@ -5,11 +5,11 @@ export function FitSection() {
         <div className="bg-gray-900 border border-white/10 rounded-2xl px-8 md:px-12 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div className="max-w-lg">
             <h2 className="text-xl md:text-2xl font-extrabold text-white">
-              Let's see if there's a Fit
+              Ready to Grow Your Business?
             </h2>
             <p className="mt-2 text-gray-400 text-sm md:text-base leading-relaxed">
-              A simple conversation to understand your needs and see if we're the right
-              white label partner for your agency.
+              A free 20-minute call to understand your business goals and show you exactly
+              how AI automation + digital marketing can drive your next stage of growth.
             </p>
           </div>
           <a

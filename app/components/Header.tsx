@@ -8,8 +8,19 @@ const CYAN = "#00BCD4";
 
 const services = [
   {
-    label: "White Label SEO",
+    label: "SEO & AI Search",
     href: "#white-label-seo",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
+        <circle cx="11" cy="11" r="7" stroke={CYAN} strokeWidth={1.8} />
+        <path d="M16 16l4 4" stroke={CYAN} strokeWidth={1.8} strokeLinecap="round" />
+        <path d="M8 11h6M11 8v6" stroke={CYAN} strokeWidth={1.6} strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "Paid Advertising",
+    href: "#white-label-link-building",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
         <rect x="3" y="12" width="4" height="9" rx="1" fill={CYAN} />
@@ -19,23 +30,12 @@ const services = [
     ),
   },
   {
-    label: "White Label Link Building",
-    href: "#white-label-link-building",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
-        <path d="M7 7h10v10H7z" stroke={CYAN} strokeWidth={1.8} fill="none" />
-        <path d="M7 7L4 4M17 7l3-3M7 17l-3 3M17 17l3 3" stroke={CYAN} strokeWidth={1.8} strokeLinecap="round" />
-        <circle cx="12" cy="12" r="2.5" fill={CYAN} />
-      </svg>
-    ),
-  },
-  {
-    label: "White Label Local SEO",
+    label: "AI Marketing & Automation",
     href: "#white-label-local-seo",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
-        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill={CYAN} />
-        <circle cx="12" cy="9" r="2.5" fill="#000" />
+        <circle cx="12" cy="12" r="9" stroke={CYAN} strokeWidth={1.8} />
+        <path d="M9 12l2 2 4-4" stroke={CYAN} strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },

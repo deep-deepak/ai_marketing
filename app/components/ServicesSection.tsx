@@ -3,15 +3,15 @@ const CYAN = "#00BCD4";
 const services = [
   {
     id: "white-label-seo",
-    tag: "White Label SEO",
-    heading: "Rank Your Clients. Keep Your Brand.",
+    tag: "SEO & AI Search",
+    heading: "Rank Higher. Get Found. Win More Customers.",
     description:
-      "We handle the full SEO execution under your agency's name — from technical audits to content and link acquisition. Your clients see results; they only see you.",
+      "We handle end-to-end SEO — technical audits, content strategy, link building, and AI search optimisation — so your business ranks on Google and gets cited in ChatGPT, Gemini, and AI Overviews.",
     features: [
       "Full technical SEO audits & fixes",
       "Keyword research & content strategy",
       "On-page optimisation & schema markup",
-      "Monthly white-label reporting",
+      "Monthly performance reporting",
       "AI overview & ChatGPT citation targeting",
       "Dedicated account manager",
     ],
@@ -26,17 +26,17 @@ const services = [
   },
   {
     id: "white-label-link-building",
-    tag: "White Label Link Building",
-    heading: "Real Links. Real Authority. Zero Risk.",
+    tag: "Paid Advertising (PPC & Meta)",
+    heading: "Real Clicks. Real Leads. Real Revenue.",
     description:
-      "We secure editorial placements on legitimate, high-DR websites that move the needle on domain authority and organic traffic — all delivered under your brand.",
+      "We build and manage high-performance Google Ads, Meta Ads, and PPC campaigns that target your ideal customers, reduce wasted spend, and consistently deliver measurable ROI.",
     features: [
-      "Manual outreach on DR 40–90+ sites",
-      "Niche-relevant, editorial placements",
-      "Full anchor text control",
-      "Live link reports with DA/DR metrics",
-      "No PBNs, no spam, no footprints",
-      "Scalable monthly link packages",
+      "Google Ads & Search campaigns",
+      "Meta Ads (Facebook & Instagram)",
+      "Audience targeting & retargeting",
+      "Ad creative design & copywriting",
+      "Conversion tracking & optimisation",
+      "Weekly performance reporting",
     ],
     icon: (
       <svg viewBox="0 0 56 56" fill="none" className="w-12 h-12">
@@ -48,17 +48,17 @@ const services = [
   },
   {
     id: "white-label-local-seo",
-    tag: "White Label Local SEO",
-    heading: "Put Your Clients on the Local Map.",
+    tag: "AI Marketing & Automation",
+    heading: "Work Less. Grow More. Automate Everything.",
     description:
-      "We optimise Google Business Profiles, build local citations, and run location-specific SEO so your clients' phones ring and their doors open — all without them knowing we exist.",
+      "We build intelligent AI marketing systems that automate your lead nurturing, content creation, ad optimisation, and reporting — so your business generates revenue 24/7 without constant manual effort.",
     features: [
-      "Google Business Profile management",
-      "NAP citation building & cleanup",
-      "Local keyword & competitor research",
-      "Review strategy & reputation management",
-      "Location page creation & optimisation",
-      "Local rank tracking & white-label reports",
+      "AI-powered lead nurturing sequences",
+      "Automated content creation & scheduling",
+      "Smart ad bidding & optimisation",
+      "CRM integration & workflow automation",
+      "AI chatbot & customer engagement",
+      "Performance dashboards & reporting",
     ],
     icon: (
       <svg viewBox="0 0 56 56" fill="none" className="w-12 h-12">
@@ -90,10 +90,10 @@ export function ServicesSection() {
             What We Do
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white">
-            Services Built for Agencies
+            Services Built for Business Growth
           </h2>
           <p className="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">
-            Everything runs under your brand. Your clients stay yours. We stay invisible.
+            End-to-end digital marketing and AI automation services designed to generate leads, build authority, and grow your revenue.
           </p>
         </div>
 

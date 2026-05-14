@@ -43,7 +43,7 @@ const socials = [
   },
 ];
 
-const services = ["White Label SEO", "White Label Link Building", "White Label Local SEO"];
+const services = ["SEO & AI Search", "Paid Advertising", "AI Marketing & Automation"];
 const company  = ["About us", "Blog", "Contact"];
 const legal    = ["Privacy Policy"];
 

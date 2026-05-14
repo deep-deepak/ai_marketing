@@ -3,15 +3,15 @@ import Image from "next/image";
 const stats = [
   { value: "50+", label: "In-house Experts" },
   { value: "300+", label: "SOPs Documented" },
-  { value: "7+", label: "Years in SEO" },
+  { value: "7+", label: "Years in Digital Marketing" },
   { value: "98%", label: "Client Retention" },
 ];
 
 const values = [
   {
-    title: "We Stay Invisible",
+    title: "We Stay Accountable",
     description:
-      "Your clients never know we exist. Everything we deliver goes out under your agency's name — zero risk to your relationships.",
+      "Every campaign, every rupee, every result is tracked and reported. No fluff, no vanity metrics — only the numbers that actually impact your bottom line.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19" />
@@ -22,7 +22,7 @@ const values = [
   {
     title: "Process Over Guesswork",
     description:
-      "Every campaign runs on documented SOPs built over years of testing. Predictable inputs produce predictable results — no surprises for you or your clients.",
+      "Every campaign runs on data-backed strategies and AI-driven insights. Predictable inputs produce predictable results — no guesswork, no surprises.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <polyline points="9 11 12 14 22 4" />
@@ -33,7 +33,7 @@ const values = [
   {
     title: "One Roof, Full Control",
     description:
-      "Our entire team — writers, strategists, outreach specialists, analysts — works from a single location. No outsourcing, no quality gaps.",
+      "Our entire team — AI engineers, marketers, designers, analysts — works from a single location. No outsourcing, no quality gaps, full accountability.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#00BCD4" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
         <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
@@ -57,18 +57,18 @@ export function AboutSection() {
               About Us
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-white leading-snug">
-              Built by Agency People,<br className="hidden sm:block" /> for Agency People
+              Built to Help Businesses<br className="hidden sm:block" /> Grow Smarter
             </h2>
             <p className="mt-5 text-gray-400 text-sm md:text-base leading-relaxed">
-              AI Mentors was founded by a team that spent years running digital agencies
-              and hitting the same wall — scaling client delivery without sacrificing quality.
-              We built the in-house team, the SOPs, and the systems we always wished we could
-              hire externally.
+              AI Mentors was founded by a team of digital marketers and AI engineers who saw
+              one recurring problem — businesses spending huge budgets on marketing that wasn't
+              working. We built the systems, the automation, and the strategies we always knew
+              were missing.
             </p>
             <p className="mt-4 text-gray-400 text-sm md:text-base leading-relaxed">
-              Today we partner exclusively with agencies — no direct clients, ever. That means
-              our entire operation is designed around making you look good, keeping your margins
-              healthy, and your clients happy for the long term.
+              Today we work directly with businesses — from startups to established brands —
+              helping them cut marketing waste, automate the repetitive, and focus their budget
+              where it actually drives growth.
             </p>
             <a
               href="#"

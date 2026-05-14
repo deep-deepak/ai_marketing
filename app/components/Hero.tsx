@@ -87,14 +87,15 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
-          White Label SEO Services{" "}
+          Grow Your Business with AI Automation{" "}
           <br className="hidden sm:block" />
-          for Digital Agencies
+          & Digital Marketing
         </h1>
 
         <p className="mt-6 text-base md:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-          Backed by 300+ SOPs, 50+ in-house team, and strict NDA protection so
-          your brand stays yours and your clients stay happy.
+          We combine the power of AI automation with proven digital marketing
+          strategies to help businesses generate more leads, increase revenue,
+          and dominate their market.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
