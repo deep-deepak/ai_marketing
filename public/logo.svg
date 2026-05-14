@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 75" fill="none">
+  <defs>
+    <linearGradient id="aiGrad" x1="0" y1="1" x2="0.8" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#00BCD4"/>
+    </linearGradient>
+  </defs>
+  <line x1="8" y1="72" x2="40" y2="8" stroke="url(#aiGrad)" stroke-width="12" stroke-linecap="round"/>
+  <line x1="40" y1="8" x2="72" y2="72" stroke="url(#aiGrad)" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="92" cy="15" r="7" fill="#00BCD4"/>
+  <line x1="92" y1="30" x2="92" y2="72" stroke="#00BCD4" stroke-width="11" stroke-linecap="round"/>
+</svg>
