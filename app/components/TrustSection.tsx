@@ -94,27 +94,10 @@ export function TrustSection() {
   const doubleRow2 = [...row2, ...row2];
 
   return (
-    <section className="relative bg-black px-6 md:px-10 py-24 overflow-hidden">
-
-      {/* Dot grid */}
-      <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: "radial-gradient(circle, #00BCD4 1px, transparent 1px)", backgroundSize: "32px 32px", opacity: 0.08 }} />
-
-      {/* Orb — top left */}
-      <div className="absolute pointer-events-none rounded-full" style={{ top: "-100px", left: "-100px", width: "550px", height: "550px", background: "radial-gradient(circle, #00BCD4 0%, transparent 65%)", opacity: 0.35, filter: "blur(60px)", animation: "floatUp 9s ease-in-out infinite" }} />
-
-      {/* Orb — bottom right */}
-      <div className="absolute pointer-events-none rounded-full" style={{ bottom: "-100px", right: "-100px", width: "580px", height: "580px", background: "radial-gradient(circle, #0288D1 0%, transparent 65%)", opacity: 0.35, filter: "blur(60px)", animation: "floatDown 7s ease-in-out infinite" }} />
-
-      {/* Orb — center */}
-      <div className="absolute pointer-events-none rounded-full" style={{ top: "50%", left: "50%", width: "350px", height: "350px", marginTop: "-175px", marginLeft: "-175px", background: "radial-gradient(circle, #00BCD4 0%, transparent 65%)", filter: "blur(70px)", animation: "pulseGlow 6s ease-in-out infinite", opacity: 0.2 }} />
-
-      {/* Spinning rings */}
-      <div className="absolute pointer-events-none rounded-full" style={{ top: "30px", right: "30px", width: "200px", height: "200px", border: "1.5px solid rgba(0,188,212,0.5)", animation: "spinCW 18s linear infinite" }} />
-      <div className="absolute pointer-events-none rounded-full" style={{ top: "55px", right: "55px", width: "150px", height: "150px", border: "1.5px solid rgba(0,188,212,0.3)", animation: "spinCCW 12s linear infinite" }} />
-      <div className="absolute pointer-events-none rounded-full" style={{ bottom: "30px", left: "30px", width: "140px", height: "140px", border: "1.5px solid rgba(0,188,212,0.4)", animation: "spinCCW 15s linear infinite" }} />
+    <section className="bg-black px-6 md:px-10 py-24">
 
       {/* ── Content ── */}
-      <div className="relative z-10 max-w-6xl mx-auto space-y-16">
+      <div className="max-w-6xl mx-auto space-y-16">
 
         {/* Heading */}
         <div className="text-center max-w-2xl mx-auto">
