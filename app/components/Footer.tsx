@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Logo } from "./Logo";
 
 const socials = [
   {
@@ -57,15 +57,7 @@ export function Footer() {
 
           {/* Logo + socials */}
           <div className="flex flex-col justify-between gap-10">
-            <div className="relative w-[140px] h-[52px] overflow-hidden">
-              <Image
-                src="/IMG_7743.jpg"
-                alt="Logo"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center 50%" }}
-                priority
-              />
-            </div>
+            <Logo uid="footer" className="w-[180px] h-[44px]" />
             <div className="flex items-center gap-4">
               {socials.map((s) => (
                 <a
