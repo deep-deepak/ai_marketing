@@ -1,7 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
-import { Logo } from "./Logo";
 import { useState, useRef, useEffect } from "react";
 
 const CYAN = "#00BCD4";
@@ -63,7 +63,15 @@ export function Header() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Logo uid="header" className="w-[200px] h-[48px]" />
+          <div className="relative w-[160px] h-[60px] overflow-hidden">
+            <Image
+              src="/IMG_7743.jpg"
+              alt="Logo"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center 50%" }}
+              priority
+            />
+          </div>
         </Link>
 
         {/* Desktop nav */}
